@@ -1,0 +1,84 @@
+html {
+  font-family: Verdana;
+  color: black;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+  height: 64px;
+}
+header .left {
+  display: flex;
+  margin-left: 24px;
+}
+header .logo {
+  width: 70px;
+}
+header .name {
+  font-size: 32px;
+}
+header .name .lefthalf {
+  color: gray;
+}
+header .right {
+  display: flex;
+  margin-right: 8px;
+}
+header .right .features {
+  font-size: 26px;
+  color: rgb(53, 59, 65);
+  display: flex;
+  text-decoration: underline;
+}
+header .right .features p {
+  margin-right: 16px;
+  transition-property: color;
+  transition-duration: 0.25s;
+}
+header .right .features p:hover {
+  color: blue;
+}
+.intro {
+  display: flex;
+  background-color: antiquewhite;
+  height: 850px;
+}
+.intro .imagecontainer1 {
+  margin-top: 85px;
+  margin-left: 40px;
+  width: 50%;
+  height: 80%;
+  border: solid 1px black;
+}
+.intro .imagecontainer1 img {
+  height: 680px;
+  width: 100%;
+}
+.intro .register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+.intro .register h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: gray;
+}
+.intro .register .register-button {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  width: 25%;
+  font-size: 30px;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+.intro .register .register-button:hover {
+  background-color: lightslategray;
+}
