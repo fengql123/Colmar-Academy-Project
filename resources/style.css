@@ -265,6 +265,7 @@ header .right .features p:hover {
 footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 }
 .termsprivacy {
   display: flex;
